@@ -1,0 +1,2 @@
+jane:$2y$10$78/d/DBLCr1ARwPMCN6FaukljXQJfUNa/OyWKqCAQTWXubHGHuE9y
+john:$2y$10$9kiA4kmkZfRx.KRPGYDL2ex6aOm13EgSzlf6WQZZEjyEQjnHT9dXq
