@@ -37,7 +37,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['player2'])){
 }
 
 // Board Values
-$categories = ['Category 1', 'Category 2', 'Category 3', 'Category 4', 'Category 5'];
+$categories = ['Category 1', 'Category 2', 'Category 3', 'Category 4', 'Category 5', 'Category 6'];
 $point_values = [200, 400, 600, 800, 1000];
 $player1 = $_SESSION['user'];
 $player2 = $_SESSION['player2'] ?? null;
@@ -78,11 +78,11 @@ $used = $_SESSION['used'] ?? [];
     <?php else: ?>
     <!-- Scoreboard -->
     <div class="scoreboard">
-        <div class="player-score" <?php echo ($turn === $player1) ? 'active' : ''; ?>> 
+        <div class="player-score <?php echo ($turn === $player1) ? 'active' : ''; ?>"> 
             <h2><?php echo htmlspecialchars($player1); ?></h2>
             <p>$<?php echo number_format($scores[$player1]); ?></p>
         </div>
-        <div class="player-score" <?php echo ($turn === $player2) ? 'active' : ''; ?>> 
+        <div class="player-score <?php echo ($turn === $player2) ? 'active' : ''; ?>"> 
             <h2><?php echo htmlspecialchars($player2); ?></h2>
             <p>$<?php echo number_format($scores[$player2]); ?></p>
         </div>
