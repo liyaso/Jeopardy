@@ -1,0 +1,119 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #060CE9;
+    color: #fff;
+    text-align: center;
+}
+
+h1{
+    font-size: 2.5rem;
+    margin: 20px 0;
+}
+
+/* Scoreboard */
+.scoreboard{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin: 10px 0 20px;
+}
+
+.player-score{
+    background: #000080;
+    border: 3px solid #fff;
+    border-radius: 8px;
+    padding: 10px 30px;
+}
+
+.player-score.active{
+    border-color: #FFD700;
+}
+
+.player-score h2{
+    margin: 0 0 5px;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.player-score p{
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+/* Board */
+table{
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+th{
+    background-color: #000080;
+    color: #FFD700;
+    font-size: 0.9rem;
+    padding: 15px 25px;
+    border: 4px solid #060CE9;
+    text-transform: uppercase;
+}
+
+td{
+    width: 140px;
+    height: 80px;
+    border: 4px solid #060CE9;
+}
+
+td a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: #000080;
+    color: #FFD700;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+td a:hover{
+    background: #000080;
+}
+
+td.used{
+    background: #03086b;
+}
+
+/* Selecting Player 2*/
+.setup{
+    background: #000080;
+    display: inline-block;
+    padding: 30px 50px;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+
+.setup select, .setup button{
+    font-size: 1.1rem;
+    padding: 8px 16px;
+    margin-top: 12px;
+    display: block;
+    width: 100%;
+}
+
+.setup button{
+    background: #FFD700;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Logout */
+.logout{
+    margin-top: 20px;
+}
+
+.logout a{
+    color: #FFD700;
+    font-size: 0.9rem;
+}
