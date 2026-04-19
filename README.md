@@ -30,7 +30,7 @@ http://localhost/jeopardy/
 ```
 5. You can start playing by registering two accounts
 
-OR Visit this URL for a live demo: 
+OR Visit this URL for a live demo: https://codd.cs.gsu.edu/~lsojan1/WP/PW/2/Jeopardy/login.php
 
 ## How to Play
 1. Register two accounts 
