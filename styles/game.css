@@ -73,10 +73,12 @@ td a{
     font-size: 1.4rem;
     font-weight: bold;
     text-decoration: none;
+    transition: background 0.2s ease, transform 0.1s ease;
 }
 
 td a:hover{
-    background: #000080;
+    background: #0000aa;
+    transform: scale(1.05);
 }
 
 td.used{
